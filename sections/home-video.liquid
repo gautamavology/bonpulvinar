@@ -1,0 +1,72 @@
+<div class="home-video">
+  <div class="page-width">
+
+
+
+
+    
+<div class="home-video-main">
+<div class="background-video"  style="background-image: url(https://cdn.shopify.com/s/files/1/0887/6798/8049/files/video-image.png?v=1732171781);">
+
+    <div class="play-btn">
+    <img class="bg_img" src="https://cdn.shopify.com/s/files/1/0887/6798/8049/files/play-icon.png?v=1732171783">
+  </div>
+<iframe
+  class="video-frame"
+  style="display: none;"
+  src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=1"
+  frameborder="0"
+  allow="autoplay; encrypted-media"
+  allowfullscreen>
+</iframe>
+
+</div>
+
+
+</div>
+<div class="home-video-content">
+<h2>{{ section.settings.htitle }}</h2>
+{{ section.settings.hcontent }}
+</div>
+</div>
+</div>
+
+<style>
+   .background-video {
+    position: relative;
+    display: inline-block;
+  }
+  .background-video .play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+  }
+  .background-video iframe {
+    width: 100%;
+    height: auto;
+  }
+</style>
+{% schema %}
+  {
+    "name": "Homepage Video",
+    "settings": [
+      {
+      "type": "text",
+      "id": "video-link",
+      "label": "Enter the link"
+    },
+      {
+      "type": "text",
+      "id": "htitle",
+      "label": "Enter the text"
+    },
+      {
+      "type": "richtext",
+      "id": "hcontent",
+      "label": "Enter the content"
+    }
+    ],
+ "presets": [ { "name": "Homepage Video", "category": "ADVANCED LAYOUT" } ] }
+{% endschema %}

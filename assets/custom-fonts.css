@@ -1,0 +1,14 @@
+
+
+@font-face {
+    font-family: 'Arial Rounded MT';
+
+    src: url(//w0nnqq-1n.myshopify.com/cdn/shop/files/ArialRoundedMTBold.eot?v=307571079796036498);
+    src: url(//w0nnqq-1n.myshopify.com/cdn/shop/files/ArialRoundedMTBold.eot?%23iefix&411) format('embedded-opentype'),
+        url(//w0nnqq-1n.myshopify.com/cdn/shop/files/ArialRoundedMTBold.woff2?v=2333413758450327769) format('woff2'),
+        url(//w0nnqq-1n.myshopify.com/cdn/shop/files/arialroundedmtbold.ttf?v=13088412916981942377) format('truetype'),
+        url(//w0nnqq-1n.myshopify.com/cdn/shop/files/ArialRoundedMTBold.woff?v=1033954502701561629) format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}

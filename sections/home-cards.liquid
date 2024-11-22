@@ -1,0 +1,60 @@
+<div class="home-cards-main">
+<div class="page-width">
+{% for block in section.blocks %}
+  <div class="card-boxes">
+    <div class="card-box-inner">
+<div class="card-image">
+<img src="{{ block.settings.cimage | img_url:'1200x1200' }}">
+
+
+</div>
+<div class="card-title">
+<h2>{{ block.settings.ctitle }}</h2>
+
+</div>
+    </div>
+
+
+  <div class="card-content">
+{{ block.settings.card-content }}
+
+
+  </div>
+  </div>
+{% endfor %}
+</div>
+
+</div>
+
+
+{% schema %}
+  {
+    "name": "Home Cards",
+    "settings": [],
+    
+  "blocks": [
+    {
+      "type": "select",
+      "name": "Cards",
+      "settings": [
+         {
+      "type": "image_picker",
+      "id": "cimage",
+      "label": "Select the Image"
+    },
+         
+	 {
+      "type": "text",
+      "id": "ctitle",
+      "label": "Enter the title"
+    },
+{
+      "type": "richtext",
+      "id": "card-content",
+      "label": "Enter the content"
+    }
+      ]
+    }
+  ] ,
+ "presets": [ { "name": "Home Cards", "category": "ADVANCED LAYOUT" } ] }
+{% endschema %}

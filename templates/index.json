@@ -1,0 +1,614 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "featured_product_C38U6X": {
+      "type": "featured-product",
+      "blocks": {
+        "title_GiFiLy": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "text_mcErMU": {
+          "type": "text",
+          "settings": {
+            "text": "Are you struggling with neck pain?",
+            "text_style": "body"
+          }
+        },
+        "price_gaCCmn": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_LbrzUg": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "square"
+          }
+        },
+        "quantity_selector_P6TKDm": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "buy_buttons_K9XC8h": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_CCzedf": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "custom_liquid_mVa6rD": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "title_GiFiLy",
+        "text_mcErMU",
+        "price_gaCCmn",
+        "variant_picker_LbrzUg",
+        "quantity_selector_P6TKDm",
+        "buy_buttons_K9XC8h",
+        "share_CCzedf",
+        "custom_liquid_mVa6rD"
+      ],
+      "settings": {
+        "product": "bonpulvinar™-orthopedic-pillow",
+        "color_scheme": "scheme-1",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Find Your Perfect Sleep Position",
+            "heading_size": "h0"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop now",
+            "button_link_1": "shopify://collections/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "button"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/Banner-bon.png",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "top-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": true
+      }
+    },
+    "image_with_text_HbEEBa": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_ngYDcW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Linderung von Nackenschmerzen",
+            "heading_size": "h1"
+          }
+        },
+        "text_cD6zYM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Unser Kissen hat eine spezielle Form, die Ihren Kopf während des Schlafs <strong>an Ort und Stelle hält</strong>. Es hält Ihren <strong>Nacken und Rücken gerade</strong> und hilft, Ihre Nackenschmerzen sofort zu lindern.</p><p>Die höheren Seiten füllen den Raum zwischen Ihrer Schulter und Ihrem Kopf, wenn Sie auf der Seite schlafen. Dies hilft, Ihren <strong>Nacken und Ihre Wirbelsäule auszurichten</strong>, was <strong>Nacken- und Rückenschmerzen reduziert</strong>.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ngYDcW",
+        "text_cD6zYM"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/neck-pain.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
+    "image_with_text_nCDaEG": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_MUkdFU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Das BonPulvinar-Kissen lindert effektiv Nacken- und Rückenschmerzen durch korrekte Wirbelsäulenausrichtung im Schlaf. Sein einzigartiges Design <strong>verteilt den Druck gleichmäßig, reduziert Muskelspannung und verhindert Unbehagen</strong>.</p><p>Die Memory-Foam-Technologie <strong>erhält die natürlichen Krümmungen der Wirbelsäule</strong>. Das Kissen <strong>verhindert Rückenprobleme und verbessert die Schlafqualität</strong>.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_MUkdFU"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/neck-pain-2.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 52
+      }
+    },
+    "image_banner_M6icWD": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/banner-bon-2.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Featured products",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_YyV7Cx": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_TXt4a8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/icon-bon-1.png",
+            "title": "<strong>Improved sleep quality</strong>",
+            "text": "<p>The Wife Pillow's ergonomic design helps to provide a more comfortable and restful sleep experience</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_4hA6BP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Group_17_3.png",
+            "title": "<strong>Arm Positioning</strong>",
+            "text": "<p>The Wife Pillow's ergonomic design helps to provide a more comfortable and restful sleep experience<br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_j6TWyX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Group_17_2.png",
+            "title": "<strong>Reduced pain and discomfort</strong>",
+            "text": "<p>The Wife Pillow's ergonomic design helps to provide a more comfortable and restful sleep experience</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_rRVE4f": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Group_17_4.png",
+            "title": "<strong>All sleepers: Side sleepers, back </strong>",
+            "text": "<p>The Wife Pillow's ergonomic design helps to provide a more comfortable and restful sleep experience</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Cg3FTj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Group_17_1.png",
+            "title": "<strong>Reduce tension and stress</strong>",
+            "text": "<p>The Wife Pillow's ergonomic design helps to provide a more comfortable and restful sleep experience</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_RM7jdN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Group_17_5.png",
+            "title": "<strong>zippers allow complete adjustability</strong>",
+            "text": "<p>The Wife Pillow's ergonomic design helps to provide a more comfortable and restful sleep experience</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_TXt4a8",
+        "column_4hA6BP",
+        "column_j6TWyX",
+        "column_rRVE4f",
+        "column_Cg3FTj",
+        "column_RM7jdN"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "home_cards_zNCEzn": {
+      "type": "home-cards",
+      "blocks": {
+        "select_KQwDzn": {
+          "type": "select",
+          "settings": {
+            "cimage": "shopify://shop_images/media-1.png",
+            "ctitle": "Tension headache relief",
+            "card-content": "<p>By maintaining neutral spinal alignment, this pillow eliminates one of the main causes of tension headaches</p><p>Help improve blood circulation, preventing compression of nerves and blood vessels. This helps reduce numbness and tingling in the arms and legs, making sleep more comfortable and uninterrupted.</p><p>Users report significantly improved sleep quality scores, which has been shown can drastically reduce the instances of headaches and migraine<br/></p>"
+          }
+        },
+        "select_4C7m3G": {
+          "type": "select",
+          "settings": {
+            "cimage": "shopify://shop_images/media-2.png",
+            "ctitle": "Snoring relief",
+            "card-content": "<p>By improving airway alignment, the BonPolvinar pillow keeping the airways open and reduces the chances of obstruction that leads to snoring</p><p>By enhancing the side sleeping experience, the BonPolvinar pillow can prevent involuntary back sleeping, which is more likely to cause the tongue and soft tissues to block the throat and induce snoring</p><p>When back sleeping, the BonPolvinar pillow gradually elevates the head (instead of at a steep angle), reducing nasal congestion and facilitating better airflow through the nasal passages, thereby minimizing snoring</p>"
+          }
+        },
+        "select_zzhkyD": {
+          "type": "select",
+          "settings": {
+            "cimage": "shopify://shop_images/media-3.png",
+            "ctitle": "Back sleepers",
+            "card-content": "<p>Innovative contour keeps your head in place, preventing cricks in your neck, misalignment, and pain when waking</p><p>Slightly upward slope along the contour gradually elevates your neck, instead of forcing it into unnatural angles</p><p>Reduced strain on internal organs: Back sleeping is considered beneficial for relieving pressure on internal organs, such as the heart and lungs, which can improve overall well-being and contribute to a restful sleep</p>"
+          }
+        }
+      },
+      "block_order": [
+        "select_KQwDzn",
+        "select_4C7m3G",
+        "select_zzhkyD"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "home_video_RHkM7X": {
+      "type": "home-video",
+      "settings": {
+        "video-link": "https://www.youtube.com/embed/7ZC_AvkbtWA",
+        "htitle": "Ergonomic design & pain relief sleeping",
+        "hcontent": "<p>Higher or lower support? side or back sleeping? two heights and two sides accomodate your different needs.</p><ul><li>Support head. neck spine properly</li><li>Alleviate shoulder stiffness</li><li>Improve sleep quality<br/><br/></li></ul>"
+      }
+    },
+    "rich_text_BdBmjx": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_PnGL67": {
+          "type": "heading",
+          "settings": {
+            "heading": "How it works",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_PnGL67"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_banner_pzkGp7": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/Rectangle_19.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "custom_review_section_PyPXGq": {
+      "type": "custom-review-section",
+      "blocks": {
+        "select_dQ7mJk": {
+          "type": "select",
+          "settings": {
+            "rimage": "shopify://shop_images/review-1.png",
+            "person-title": "Barbara D.",
+            "review-content": "<p>“ I never knew a pillow could make such a difference. My sleep is deeper, and my posture has noticeably improved. “</p>",
+            "person-desig": "Digital Marketer"
+          }
+        },
+        "select_8fGFfw": {
+          "type": "select",
+          "settings": {
+            "rimage": "shopify://shop_images/review-2.png",
+            "person-title": "Barbara D.",
+            "review-content": "<p>“ I never knew a pillow could make such a difference. My sleep is deeper, and my posture has noticeably improved. “</p>",
+            "person-desig": "Digital Marketer"
+          }
+        },
+        "select_mqCFWb": {
+          "type": "select",
+          "settings": {
+            "rimage": "shopify://shop_images/review-3.png",
+            "person-title": "Barbara D.",
+            "review-content": "<p>“ I never knew a pillow could make such a difference. My sleep is deeper, and my posture has noticeably improved. “</p>",
+            "person-desig": "Digital Marketer"
+          }
+        },
+        "select_XRMxW7": {
+          "type": "select",
+          "settings": {
+            "rimage": "shopify://shop_images/review-1.png",
+            "person-title": "Barbara D.",
+            "review-content": "<p>“ I never knew a pillow could make such a difference. My sleep is deeper, and my posture has noticeably improved. “</p>",
+            "person-desig": "Digital Marketer"
+          }
+        },
+        "select_zgtTqm": {
+          "type": "select",
+          "settings": {
+            "rimage": "shopify://shop_images/review-2.png",
+            "person-title": "Barbara D.",
+            "review-content": "<p>“ I never knew a pillow could make such a difference. My sleep is deeper, and my posture has noticeably improved. “</p>",
+            "person-desig": "Digital Marketer"
+          }
+        }
+      },
+      "block_order": [
+        "select_dQ7mJk",
+        "select_8fGFfw",
+        "select_mqCFWb",
+        "select_XRMxW7",
+        "select_zgtTqm"
+      ],
+      "settings": {
+        "r-title": "3,000 5-star reviews and counting"
+      }
+    },
+    "multicolumn_QJnRb8": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_4fBct8": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>By enhancing the side sleeping experience, the BonPolvinar pillow can prevent involuntary back sleeping, which is more likely to cause the tongue and soft tissues to block the throat and induce snoring</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_zEXXMp": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>By enhancing the side sleeping experience, the BonPolvinar pillow can prevent involuntary back sleeping, which is more likely to cause the tongue and soft tissues to block the throat and induce snoring</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_6A7mwB": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>By enhancing the side sleeping experience, the BonPolvinar pillow can prevent involuntary back sleeping, which is more likely to cause the tongue and soft tissues to block the throat and induce snoring</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_4fBct8",
+        "column_zEXXMp",
+        "column_6A7mwB"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "How it Works",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "faqs_QLxe3x": {
+      "type": "faqs",
+      "blocks": {
+        "select_b4VzEF": {
+          "type": "select",
+          "settings": {
+            "ftitle": "Was macht das Bonpulvinar-Kissen besser als mein aktuelles Kissen?",
+            "fcontent": "<p>Bonpulvinar verwendet hochdichten Memory-Schaum mit einem ergonomischen Design, das Ihre Wirbelsäule im Schlaf unterstützt. Memory-Schaum hat sich als effektiv erwiesen, um die Schlafqualität zu verbessern und Nackenschmerzen beim Aufwachen zu reduzieren.</p>"
+          }
+        },
+        "select_wd99hJ": {
+          "type": "select",
+          "settings": {
+            "ftitle": "Wie lindert das Bonpulvinar-Kissen Nackenschmerzen?",
+            "fcontent": "<p>Das Bonpulvinar-Kissen ist mit innovativen Konturen gestaltet, die den Nacken stützen und eine korrekte Ausrichtung der Wirbelsäule fördern. Diese Ausrichtung hilft, den Druck auf die Nackenmuskulatur zu verringern und Spannungen sowie Beschwerden zu reduzieren.</p>"
+          }
+        },
+        "select_Am3CDm": {
+          "type": "select",
+          "settings": {
+            "ftitle": "Wer kann vom Bonpulvinar-Kissen profitieren?",
+            "fcontent": "<p>Jeder, der unter Nackenschmerzen, Steifheit oder Unbehagen leidet, kann vom Bonpulvinar-Kissen profitieren. Ob Sie unter chronischen Nackenschmerzen oder gelegentlichem Unbehagen durch eine schlechte Schlafhaltung leiden  unser Kissen bietet gezielte Linderung für eine erholsame Nachtruhe.</p>"
+          }
+        },
+        "select_34eFWN": {
+          "type": "select",
+          "settings": {
+            "ftitle": "Kann das Bonpulvinar-Kissen auch bei Schulterschmerzen helfen?",
+            "fcontent": "<p>Ja, das Bonpulvinar-Kissen ist so konzipiert, dass es nicht nur den Nacken unterstützt, sondern auch Spannungen in den Schultern lindert. Durch die Förderung einer korrekten Ausrichtung der Wirbelsäule hilft es, das Gewicht gleichmäßig zu verteilen, wodurch die Belastung der Schultern verringert und Entspannung gefördert wird.</p>"
+          }
+        },
+        "select_UY6e83": {
+          "type": "select",
+          "settings": {
+            "ftitle": "Wie lange dauert es, bis man mit dem Bonpulvinar-Kissen eine Linderung verspürt?",
+            "fcontent": "<p>Viele Nutzer verspüren bereits bei der ersten Verwendung des Bonpulvinar-Kissens eine sofortige Linderung. Die Ergebnisse können jedoch individuell variieren. Eine regelmäßige Nutzung des Kissens kann langfristig zu einer Linderung von Nackenschmerzen und Beschwerden führen und die allgemeine Schlafqualität und das Wohlbefinden verbessern.</p>"
+          }
+        },
+        "select_hdd46q": {
+          "type": "select",
+          "settings": {
+            "ftitle": "Wie lange hält das Bonpulvinar-Kissen?",
+            "fcontent": "<p>12 Jahre. Die Bonpulvinar-Kissen bestehen aus Memory-Schaum in Raumfahrtqualität, der seine Form und Qualität über lange Zeit beibehält. Für die beste Schmerzlinderung empfehlen wir jedoch, das Kissen alle 6 Monate auszutauschen.</p>"
+          }
+        },
+        "select_QJUNdz": {
+          "type": "select",
+          "settings": {
+            "ftitle": "Was, wenn das Bonpulvinar-Kissen nicht zu mir passt?",
+            "fcontent": "<p>Normalerweise dauert es etwa zwei Wochen, um sich an das einzigartige Design des Kissens zu gewöhnen. Zusätzlich bieten wir eine 100-Nächte-Testphase an. Da Kissen sehr subjektiv sind und die Bedürfnisse und Vorlieben bei jedem unterschiedlich ausfallen, können Sie es 100 Nächte lang ausprobieren und es bei Nichtgefallen problemlos zurückgeben.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "select_b4VzEF",
+        "select_wd99hJ",
+        "select_Am3CDm",
+        "select_34eFWN",
+        "select_UY6e83",
+        "select_hdd46q",
+        "select_QJUNdz"
+      ],
+      "settings": {
+        "faq-title": "Frequently Ask Questions"
+      }
+    }
+  },
+  "order": [
+    "featured_product_C38U6X",
+    "image_banner",
+    "image_with_text_HbEEBa",
+    "image_with_text_nCDaEG",
+    "image_banner_M6icWD",
+    "featured_collection",
+    "multicolumn_YyV7Cx",
+    "home_cards_zNCEzn",
+    "home_video_RHkM7X",
+    "rich_text_BdBmjx",
+    "image_banner_pzkGp7",
+    "custom_review_section_PyPXGq",
+    "multicolumn_QJnRb8",
+    "faqs_QLxe3x"
+  ]
+}

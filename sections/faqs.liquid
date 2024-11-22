@@ -1,0 +1,54 @@
+<div class="faq-main">
+<div class="page-width">
+<h2>{{ section.settings.faq-title }}</h2>
+
+<div class="accordion">
+{% assign count = 1 %}
+{% for block in section.blocks %}
+  <div class="accordion__item">
+    <div class="accordion__header" data-toggle="#f{{ count }}">{{ block.settings.ftitle }}</div>
+    <div class="accordion__content" id="f{{ count }}">
+      {{ block.settings.fcontent }}
+      {{ count }}
+    </div>
+  </div>
+  {% assign count = count | plus: 1 %}
+{% endfor %}
+</div>
+</div>
+
+</div>
+
+
+{% schema %}
+  {
+    "name": "Faqs",
+    "settings": [
+       {
+      "type": "text",
+      "id": "faq-title",
+      "label": "Enter the Faq Heading"
+    }
+    ],
+    "blocks": [
+    {
+      "type": "select",
+      "name": "Faq",
+      "settings": [
+    
+	 {
+      "type": "text",
+      "id": "ftitle",
+      "label": "Enter the Faq Title"
+    },
+{
+      "type": "richtext",
+      "id": "fcontent",
+      "label": "Enter the Faq content"
+    }
+      ]
+    }
+  ]
+    
+    ,"presets": [ { "name": "Faqs", "category": "ADVANCED LAYOUT" } ] }
+{% endschema %}

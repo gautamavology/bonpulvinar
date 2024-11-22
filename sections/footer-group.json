@@ -1,0 +1,99 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "newsletter_XbHgXH": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_Eqf9wW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Wake Up to Savings! Join Our Email List for Updates and Exclusive Offers.",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_MkmkmN": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Enjoy new product arrivals, trend updates and the latest offers delivered straight to your inbox. </p>"
+          }
+        },
+        "email_form_wbkdht": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_Eqf9wW",
+        "paragraph_MkmkmN",
+        "email_form_wbkdht"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "text_yaQUeU": {
+          "type": "text",
+          "settings": {
+            "heading": "Contact info",
+            "subtext": "<p>736 Blue Spring Ave. Smithtown, <br/>NY 11787<br/>(+844) 1800 3377<br/>support@example.com</p>"
+          }
+        },
+        "link_list_CcJ3WK": {
+          "type": "link_list",
+          "settings": {
+            "heading": "",
+            "menu": "footer-menu"
+          }
+        },
+        "link_list_C73rEb": {
+          "type": "link_list",
+          "settings": {
+            "heading": "",
+            "menu": "footer"
+          }
+        }
+      },
+      "block_order": [
+        "text_yaQUeU",
+        "link_list_CcJ3WK",
+        "link_list_C73rEb"
+      ],
+      "settings": {
+        "footerimage": "shopify://shop_images/footer-logo.png",
+        "follow-us": "Follow Us.",
+        "color_scheme": "scheme-3",
+        "newsletter_enable": false,
+        "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": true,
+        "show_social": true,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "payment_enable": false,
+        "show_policy": false,
+        "margin_top": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "newsletter_XbHgXH",
+    "footer"
+  ]
+}

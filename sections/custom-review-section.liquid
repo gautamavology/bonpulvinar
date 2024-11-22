@@ -1,0 +1,82 @@
+<div class="home-reviews">
+<div class="page-width">
+<h2>{{ section.settings.r-title }}</h2>
+
+  <div class="review-inner">
+<div class="owl-carousel owl-theme">
+ {% for block in section.blocks %}
+    <div class="item">
+    <img class="star-image" src="https://cdn.shopify.com/s/files/1/0887/6798/8049/files/starts.png?v=1732175948">  
+         {{ block.settings.review-content }}
+  <img class="review-image" src="{{ block.settings.rimage |img_url:'1200x1200' }}">
+   <h3>{{ block.settings.person-title}}</h3>
+      <span>{{ block.settings.person-desig }}</span>
+ </div>
+   {% endfor %}
+</div>
+</div> 
+</div>
+</div>
+<script>
+  
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:30,
+    nav:false,
+  dots:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+</script>
+{% schema %}
+  {
+    "name": "Home Reviews",
+    "settings": [   
+      {
+      "type": "text",
+      "id": "r-title",
+      "label": "Enter the Title"
+    }
+  ],
+    
+    
+    "blocks": [
+    {
+      "type": "select",
+      "name": "Reviews",
+      "settings": [
+         {
+      "type": "image_picker",
+      "id": "rimage",
+      "label": "Select the Image"
+    },
+         
+	 {
+      "type": "text",
+      "id": "person-title",
+      "label": "Enter the Review Heading"
+    },
+{
+      "type": "richtext",
+      "id": "review-content",
+      "label": "Enter the content"
+    },
+         {
+      "type": "text",
+      "id": "person-desig",
+      "label": "Enter the Designation"
+    }
+      ]
+    }
+  ]
+    ,"presets": [ { "name": "Home Reviews", "category": "ADVANCED LAYOUT" } ] }
+{% endschema %}
